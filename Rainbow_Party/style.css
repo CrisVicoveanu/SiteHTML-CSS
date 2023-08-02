@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    
+}
+
+.navbar {
+    background-color: #FFC0CB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+.logo img {
+    height: 150px;
+    
+}
+.centered-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-size: 48px; 
+    color: #FF69B4;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+  }
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-links a {
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+    color: #4169E1;
+}
+
+
+.nav-links a:hover {
+    color: #FF69B4; 
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.content {
+    display: flex; 
+    color: #333;
+    background-image: url(./background-birthday-party-image.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content-left {
+    flex: 0.7; 
+    padding: 20px;
+}
+
+.content-right {
+    flex: 2.3; 
+    
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: -1;
+}
+h1 {
+    color: #FF69B4;
+}
+
+h3 {
+    color: #4169E1;
+}
+
+.expandable-text {
+    display: none;
+  }
+  
+  input[type="button"] {
+    display: none;
+  }
+  
+  input[type="button"]~ .expandable-text {
+    display: block;
+  }
+  
+  .read-more-label {
+    color: #007bff;
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: underline;
+  }
+  
+  .read-more-label::before {
+    content: "Citeste mai mult";
+    padding-right: 5px;
+  }
+  
+  input[type="checkbox"]:checked ~ .read-more-label::before {
+    content: "Citeste mai putin";
+  }
+  
+.contacteaza-ne {
+    padding: 10px;
+    background-color: #F0E68C;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contacteaza-ne h2 {
+    color: #FF69B4;
+    margin-bottom: 5px;
+}
+
+.contacteaza-ne p {
+    color: #4169E1;
+    margin: 0;
+}
+
+.footer {
+    background-color: #FFC0CB;
+    height: 100px;
+    padding-top: 30px;
+    text-align: center;
+    color: #4169E1;
+    text-align: center;
+}

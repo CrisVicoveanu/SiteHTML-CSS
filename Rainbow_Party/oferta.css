@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    
+}
+
+.navbar {
+    background-color: #FFC0CB;
+    /padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    position: relative;
+
+}
+
+.logo img {
+    height: 150px;
+    
+    
+}
+.centered-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-size: 48px; 
+    color: #FF69B4; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+  }
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-links a {
+    padding: 10px;
+    text-decoration: none;
+    color: #4169E1;
+}
+
+.nav-links a:hover {
+    color: #FF69B4; 
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.content {
+    background-image: url(./imagine_oferta5.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    gap: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .content-left {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .content-right {
+    flex: 1;
+    max-width: 500px;
+  }
+  
+  .content ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  h1 {
+    color: #4B0082;
+  }
+  
+  h2 {
+    color: #4B0082;
+    text-align: center;
+  }
+  
+  p {
+    color: #4B0082;
+  }
+  .contacteaza-ne {
+    padding: 10px;
+    background-color: #F0E68C;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contacteaza-ne h2 {
+    color: #FF69B4;
+    margin-bottom: 5px;
+}
+
+.contacteaza-ne p {
+    color: #4169E1;
+    margin: 0;
+}
+
+.footer {
+    background-color: #FFC0CB;
+    height: 100px;
+    padding-top: 30px;
+    text-align: center
+}
+p {
+  color:#4169E1 ;
+}
+
+   
+    
+    
+   
+    

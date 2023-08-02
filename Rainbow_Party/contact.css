@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F9F6F9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+  }
+  .navbar {
+    background-color: #FFC0CB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+
+}
+
+.logo img {
+    height: 150px;
+    
+    
+}
+.centered-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    font-size: 48px; 
+    color: #FF69B4; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+  }
+.navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.nav-links a {
+    padding: 10px;
+    text-decoration: none;
+    color: #4169E1;
+}
+
+.nav-links a:hover {
+    color: #FF69B4;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+.content {
+  flex: 1; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: #FFC0CB; 
+  border-radius: 10px;
+  box-shadow: #4B0082;
+  flex: 1;
+  align-items: center;
+}
+
+.contact-section1 {
+  color: #4169E1;
+  display: flex;
+  align-items: center;
+}
+.contact-section2 {
+  color: #4169E1;
+  display: flex;
+  align-items: center;
+}
+.contact-section3 {
+  color: #4169E1;
+  display: flex;
+  align-items: center;
+}
+.contact-section4 {
+  color: #4169E1;
+  display: flex;
+  align-items: center;
+}
+
+.contact-details {
+  display: flex;
+  gap: 20px; 
+  align-items: center; 
+  justify-content: flex-end; 
+}
+
+.contact-info p {
+  color: #4B0082;
+  margin: 0;
+}
+
+.contact-section1 i {
+  color: #4169E1;;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.contact-section2 i {
+  color: #4169E1;;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.contact-section3 i {
+  color: #4169E1;;
+  font-size: 24px;
+  margin-right: 10px;
+}
+.contact-section4 i {
+  color: #4169E1;;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.footer {
+  text-align: center;
+  color: #4169E1;
+  padding: 10px;
+  background-color: #FFC0CB; 
+}
